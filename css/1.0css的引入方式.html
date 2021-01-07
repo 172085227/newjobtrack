@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.0css的引入方式</title>
+    <link rel="stylesheet" type="text/css" href="test.css"/><!--外链式-->
+    <!--嵌入式-->
+    <style>
+        #pid /*以#开头的为id选择器*/
+        {
+            color: blue;
+            font-weight:900;
+
+        }
+        p{
+              font-style: italic;
+          }
+        .pClass{
+            text-align: center;
+        }/*以点开头为类选择器*/
+    </style>
+
+</head>
+<body>
+<h3>1.0css的引入方式</h3>
+<!--内联式-->
+<p class="pClass" style="color:red;font-size: 50px;font-family: 隶书;">这是一个段落的文本1</p>
+<p class="pClass" id="pid">这是一个段落的文本2</p>
+<p id="xid">这是一个段落的文本3</p>
+<span>111</span>
+<span>444</span>
+<span>777</span>
+<div>111</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.0表格样式的处理测试</title>
+    <style>
+        table{/*元素选择器*/
+           border: 3px black solid;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td{
+            border:mediumblue solid 2px;
+            text-align: center;
+
+        }
+        th{
+            background-color: #ffa3c2;
+        }
+        /*td{
+            background-color: #baf5ff;
+
+        }*/
+        tr:nth-child(1n){
+            background-color: #aeddda;
+        }
+    </style>
+</head>
+<body>
+<h3>5.0表格样式的处理测试</h3>
+
+<table border="1" cellspacing="0" cellpadding="15">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th> 姓名</th>
+        <th>性别</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>18</td>
+        <td>男</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>李四</td>
+        <td>18</td>
+        <td>女</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>王五</td>
+        <td>21</td>
+        <td>女</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>赵六</td>
+        <td>20</td>
+        <td>男</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>王五</td>
+        <td>21</td>
+        <td>女</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>赵六</td>
+        <td>20</td>
+        <td>男</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

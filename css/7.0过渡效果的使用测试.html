@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7.0过渡效果的使用测试</title>
+    <style>
+        #div01{
+            width: 150px;
+            height: 150px;
+            border: 1px solid #0100ff;
+            background-color: #c3ff9f;
+        }
+        #div01:hover{
+            background-color: #b9ccdd;
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+            transition-duration: 5s;
+            transition-property: width,height,border-radius,background-color;
+            transition-delay: 1s;
+            transition-timing-function: ease;
+        }
+    </style>
+</head>
+<body>
+    <h3>7.0过渡效果的使用测试</h3>
+    <div id="div01"></div>
+</body>
+</html>
