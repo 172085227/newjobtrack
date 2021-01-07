@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iframe的使用测试</title>
+</head>
+<body>
+<!--上面的结构-->
+<div style="border:2px solid red;">
+    <h3>iframe的使用测试</h3>
+    <h3>top的内容</h3>
+</div>
+<!--下面的结构-->
+<div>
+    <!--左面的结构-->
+    <div style="border:2px solid green;width:30%;float:left;">
+        <h3>左侧导航栏</h3>
+        <ul>
+            <li><a href="A.html" target="main">菜单A</a></li>    <!--控制打开的页面在哪里呈现-->
+            <li><a href="B.html" target="main">菜单B</a></li>
+            <li><a href="C.html" target="main">菜单C</a></li>
+            <li><a href="D.html" target="main">菜单D</a></li>
+        </ul>
+    </div>
+    <!--右面的结构-->
+    <div style="border:2px solid blue;width:68%;float:left;">
+        <h3>右侧呈现的内容区域</h3>
+        <h3>iframe的使用测试</h3>
+        <iframe src="main.html" name="main" height="300" wise="300"/>
+    </div>
+</div>
+
+</body>
+</html>
